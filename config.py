@@ -1,0 +1,1 @@
+DATABASE_URI = "sqlite:///personal_finance.db"
