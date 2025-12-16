@@ -4,7 +4,7 @@ def add_category_column(df):
         "Groceries": ["coles", "woolworths", "grocery", "supermarket"],
         "Transport": ["uber", "didi", "nsw", "transport", "metro"],
         "Shopping": ["amazon", "flipkart", "mall", "nike", "jd sports", "h&m"],
-        "Enterntainment": ["bowling", "cinema", "bar", "pub", "ekansh", "club", "party"],
+        "Entertainment": ["bowling", "cinema", "bar", "pub", "ekansh", "club", "party"],
         "Income": ["salary", "bonus", "refund", "interest"],
         "Utilities": ["electricity", "water", "internet", "phone", "gas"],
         "Healthcare": ["pharmacy", "hospital", "clinic", "doctor", "medical"],

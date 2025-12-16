@@ -4,17 +4,27 @@ from sqlalchemy.exc import SQLAlchemyError
 import logging
 from config import DATABASE_URI
 from ETL.dataTransformer import add_category_column
+import os
+from datetime import datetime
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class TransactionDataManager:
     def __init__(self, db_uri=DATABASE_URI):
+        db_file = "personal_finance.db"
+
+        if os.path.exists(db_file):
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            backup_file = f"personal_finance_{timestamp}.db"
+            os.rename(db_file, backup_file)
+            logger.info(f"Renamed existing DB to {backup_file}")
+        
         self.engine = create_engine(db_uri)
 
     def load_data(self, file_path):
         try:
-            df = pd.read_csv(file_path, header=None, names=['date', 'amount', 'description', 'balance'])
+            df = pd.read_csv(file_path, header=0, parse_dates=['date'])
             logger.info(f"Loaded data from {file_path} with {len(df)} records.")
             return df
         except Exception as e:
