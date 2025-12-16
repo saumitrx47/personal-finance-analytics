@@ -1,0 +1,161 @@
+date,amount,description,balance
+2025-01-01,-25.5,Uber ride,1000.5
+2025-01-02,-120.0,Amazon order,975.0
+2025-01-03,2000.0,Salary credit,855.0
+2025-01-04,-40.1,Cafe Mocha lunch,2814.9
+2025-01-04,-111.4,Party at Ekansh club,2703.5
+2025-01-05,-49.5,NSW transport card top-up,2654.0
+2025-01-05,-20.5,NSW transport card top-up,2633.5
+2025-01-08,-19.0,Pizza restaurant,2614.5
+2025-01-08,-46.3,Metro transport fare,2568.2
+2025-01-09,-37.2,NSW metro ticket,2531.0
+2025-01-11,-13.7,NSW transport card top-up,2517.3
+2025-01-12,-100.1,Bar evening drinks,2417.2
+2025-01-13,-16.2,Metro transport fare,2401.0
+2025-01-13,-13.4,Uber trip to event,2387.6
+2025-01-13,-43.0,Supermarket grocery run,2344.6
+2025-01-14,-29.9,Bowling club game,2314.7
+2025-01-14,-58.2,Coles shopping,2256.5
+2025-01-16,-95.1,Supermarket grocery run,2161.4
+2025-01-16,-34.3,Pizza restaurant,2127.1
+2025-01-16,-12.1,Uber trip to event,2115.0
+2025-01-17,-37.1,Cinema movie night,2077.9
+2025-01-17,-37.4,Zomato cafe lunch,2040.5
+2025-01-19,-180.7,JD Sports sneakers,1859.8
+2025-01-19,-67.7,Cinema movie night,1792.1
+2025-01-19,-188.8,Amazon headphones,1603.3
+2025-01-20,-190.3,H&M mall shopping,1413.0
+2025-01-20,-53.7,Cinema movie night,1359.3
+2025-01-21,-91.7,Woolworths grocery,1267.6
+2025-01-21,100.0,Refund from Amazon,1367.6
+2025-01-22,-56.8,Coles grocery store,1310.8
+2025-01-22,-40.8,NSW transport card top-up,1270.0
+2025-01-22,-19.4,Didi ride to office,1250.6
+2025-01-24,-39.4,Uber ride home,1211.2
+2025-01-24,-23.6,Metro transport fare,1187.6
+2025-01-25,-148.6,Nike mall store,1039.0
+2025-01-26,500.0,Freelance project payment,1539.0
+2025-01-26,-61.9,Coles supermarket,1477.1
+2025-01-26,-64.0,Woolworths grocery,1413.1
+2025-01-27,-19.5,Uber ride home,1393.6
+2025-01-28,1800.0,Salary credit,3193.6
+2025-01-29,-32.8,NSW transport card top-up,3160.8
+2025-01-29,-55.4,Bar evening drinks,3105.4
+2025-01-29,-44.7,Party at Ekansh club,3060.7
+2025-01-30,-17.6,Uber ride home,3043.1
+2025-01-31,-57.8,Zomato cafe lunch,2985.3
+2025-01-31,-73.3,Coles supermarket,2912.0
+2025-01-31,300.0,Freelance payment,3212.0
+2025-02-01,1800.0,Salary credit,5012.0
+2025-02-01,-18.4,Pizza restaurant,4993.6
+2025-02-02,-43.2,Metro transport fare,4950.4
+2025-02-02,-123.1,H&M shirt purchase,4827.3
+2025-02-04,-39.6,JD Sports sneakers,4787.7
+2025-02-04,-107.0,Coles shopping,4680.7
+2025-02-04,-39.3,Uber trip to event,4641.4
+2025-02-05,-147.9,Flipkart sneaker order,4493.5
+2025-02-07,-63.4,Cinema movie night,4430.1
+2025-02-09,100.0,Freelance project payment,4530.1
+2025-02-09,-105.2,Coles supermarket,4424.9
+2025-02-09,-24.0,Bowling club game,4400.9
+2025-02-11,-33.2,Party at Ekansh club,4367.7
+2025-02-12,-31.8,Didi ride to office,4335.9
+2025-02-12,-49.4,H&M mall shopping,4286.5
+2025-02-12,500.0,Refund from Amazon,4786.5
+2025-02-13,-40.1,Zomato cafe lunch,4746.4
+2025-02-13,-30.8,NSW metro ticket,4715.6
+2025-02-14,-90.6,Mall shopping spree,4625.0
+2025-02-16,-55.0,Amazon headphones,4570.0
+2025-02-18,100.0,Freelance project payment,4670.0
+2025-02-18,-98.2,Woolworths grocery,4571.8
+2025-02-18,-194.5,Nike mall store,4377.3
+2025-02-19,300.0,Refund from Amazon,4677.3
+2025-02-20,-20.1,Cafe snacks,4657.2
+2025-02-20,-42.2,Amazon phone cover,4615.0
+2025-02-20,-21.7,NSW transport card top-up,4593.3
+2025-02-21,-44.5,Cafe brunch with friends,4548.8
+2025-02-22,500.0,Stock dividends credit,5048.8
+2025-02-23,200.0,Freelance project payment,5248.8
+2025-02-24,-10.5,Uber trip to event,5238.3
+2025-02-24,-90.6,Flipkart electronics,5147.7
+2025-02-25,-34.7,Pizza restaurant,5113.0
+2025-02-25,-48.2,NSW transport card top-up,5064.8
+2025-02-25,-92.6,Coles shopping,4972.2
+2025-02-27,-56.1,JD Sports sneakers,4916.1
+2025-02-27,-23.4,Swiggy burger order,4892.7
+2025-02-27,-58.5,Cafe brunch with friends,4834.2
+2025-02-28,1800.0,Salary credit,6634.2
+2025-03-01,2000.0,Salary credit,8634.2
+2025-03-01,-12.4,NSW metro ticket,8621.8
+2025-03-01,-14.8,Metro transport fare,8607.0
+2025-03-01,-96.8,H&M mall shopping,8510.2
+2025-03-02,-47.4,Pizza restaurant,8462.8
+2025-03-02,-54.5,Flipkart sneaker order,8408.3
+2025-03-02,-42.4,Club night party,8365.9
+2025-03-04,-56.4,Restaurant dinner,8309.5
+2025-03-04,-119.7,Nike mall store,8189.8
+2025-03-05,-31.9,Uber ride home,8157.9
+2025-03-05,-30.2,Restaurant dinner,8127.7
+2025-03-05,-129.5,H&M mall shopping,7998.2
+2025-03-08,-32.5,Supermarket grocery run,7965.7
+2025-03-09,-61.4,Coles supermarket,7904.3
+2025-03-09,-19.1,Zomato pizza order,7885.2
+2025-03-10,-34.1,Uber ride home,7851.1
+2025-03-12,-45.8,Didi ride to office,7805.3
+2025-03-12,-21.0,Didi ride to office,7784.3
+2025-03-12,-119.1,Supermarket grocery run,7665.2
+2025-03-14,-24.3,Didi ride to office,7640.9
+2025-03-14,-81.4,Amazon headphones,7559.5
+2025-03-14,-51.5,Bowling club game,7508.0
+2025-03-15,-74.5,Club night party,7433.5
+2025-03-16,150.0,Freelance payment,7583.5
+2025-03-16,-84.2,Coles supermarket,7499.3
+2025-03-16,-34.3,Party at Ekansh club,7465.0
+2025-03-17,-115.8,Woolworths supermarket,7349.2
+2025-03-20,-43.9,Pizza restaurant,7305.3
+2025-03-20,-42.5,Zomato pizza order,7262.8
+2025-03-21,-70.3,Coles supermarket,7192.5
+2025-03-21,-115.5,Woolworths supermarket,7077.0
+2025-03-22,-36.9,Uber trip to event,7040.1
+2025-03-23,-14.0,NSW transport card top-up,7026.1
+2025-03-23,-22.8,Didi ride to office,7003.3
+2025-03-24,-53.4,Bowling club game,6949.9
+2025-03-24,-10.4,Pizza restaurant,6939.5
+2025-03-25,200.0,Freelance project payment,7139.5
+2025-03-25,-11.7,NSW transport card top-up,7127.8
+2025-03-26,-11.0,NSW transport card top-up,7116.8
+2025-03-28,2200.0,Salary credit,9316.8
+2025-03-28,-26.9,Uber trip to event,9289.9
+2025-03-28,-109.8,Cinema movie night,9180.1
+2025-03-29,-26.6,Uber ride home,9153.5
+2025-03-29,-20.5,Restaurant lunch,9133.0
+2025-04-01,2000.0,Salary credit,11133.0
+2025-04-01,300.0,Freelance project payment,11433.0
+2025-04-01,-83.7,Cinema night with friends,11349.3
+2025-04-01,-47.0,Club night party,11302.3
+2025-04-02,-13.6,Pizza restaurant,11288.7
+2025-04-02,100.0,Freelance project payment,11388.7
+2025-04-03,-33.7,NSW metro ticket,11355.0
+2025-04-04,-56.4,Cafe brunch with friends,11298.6
+2025-04-06,500.0,Freelance project payment,11798.6
+2025-04-06,-30.9,NSW metro ticket,11767.7
+2025-04-07,300.0,Freelance project payment,12067.7
+2025-04-07,-114.4,Coles shopping,11953.3
+2025-04-08,-39.9,Woolworths grocery,11913.4
+2025-04-08,-86.1,Bar evening drinks,11827.3
+2025-04-09,-175.4,Mall shopping spree,11651.9
+2025-04-10,-13.7,NSW transport card top-up,11638.2
+2025-04-10,-189.6,JD Sports sneakers,11448.6
+2025-04-10,-109.6,Cinema movie night,11339.0
+2025-04-11,-87.8,Flipkart electronics,11251.2
+2025-04-11,-38.9,Bar evening drinks,11212.3
+2025-04-13,100.0,Freelance payment,11312.3
+2025-04-13,-50.7,Coles grocery store,11261.6
+2025-04-15,-115.9,Coles shopping,11145.7
+2025-04-15,-54.0,Party at Ekansh club,11091.7
+2025-04-16,-31.7,JD Sports sneakers,11060.0
+2025-04-17,-98.5,Pub night out,10961.5
+2025-04-18,-107.9,Woolworths grocery,10853.6
+2025-04-18,-93.3,Club night party,10760.3
+2025-04-19,150.0,Freelance payment,10910.3
+2025-04-19,-28.0,Bar evening drinks,10882.3

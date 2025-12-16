@@ -10,5 +10,4 @@ __pycache__/
 .env
 
 # CSV files
-*.csv
-!DATA/sample_transactions.csv
+CSVData.csv
