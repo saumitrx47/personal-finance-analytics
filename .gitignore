@@ -11,3 +11,4 @@ __pycache__/
 
 # CSV files
 *.csv
+!DATA/sample_transactions.csv

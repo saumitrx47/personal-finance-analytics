@@ -31,6 +31,7 @@ class TransactionDataManager:
 
     def process_and_store(self, file_path):
         df = self.load_data(file_path)
+        logger.info("Transforming data by adding category column.")
         df = add_category_column(df) 
         self.save_data(df)
         logger.info("Data processing and storage completed successfully.")
@@ -38,5 +39,5 @@ class TransactionDataManager:
 
 if __name__ == "__main__":
     manager = TransactionDataManager()
-    test_file_path = 'DATA/CSVData.csv'
+    test_file_path = 'DATA/sampleData.csv'
     manager.process_and_store(test_file_path)
