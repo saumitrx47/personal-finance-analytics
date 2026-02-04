@@ -1,5 +1,5 @@
 CREATE TABLE transactions (
-    transaction_id SERIAL PRIMARY KEY,
+    -- transaction_id SERIAL PRIMARY KEY,
     date DATE,
     amount DECIMAL(10, 2),
     description VARCHAR(255),
@@ -12,8 +12,7 @@ CREATE TABLE monthly_spending_summary (
     year_month DATE,
     total_spending DECIMAL(10, 2),
     total_income DECIMAL(10, 2),
-    net_spending DECIMAL(10, 2),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    net_spending DECIMAL(10, 2)
 );
 
 CREATE TABLE category_wise_spending (
@@ -21,6 +20,5 @@ CREATE TABLE category_wise_spending (
     year_month DATE,
     category VARCHAR(100),
     total_amount DECIMAL(10, 2),
-    transaction_count INT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    transaction_count INT
 );

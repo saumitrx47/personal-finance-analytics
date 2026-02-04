@@ -31,7 +31,7 @@ class TransactionAnalyser:
         try:
             query = """
             SELECT 
-                strftime('%Y-%m-01', date) as year_month,
+                strftime('%m-%Y', date) as year_month,
                 SUM(CASE WHEN amount < 0 THEN ABS(amount) ELSE 0 END) as total_spending,
                 SUM(CASE WHEN amount > 0 THEN amount ELSE 0 END) as total_income,
                 SUM(CASE WHEN amount < 0 THEN ABS(amount) ELSE -amount END) as net_spending
@@ -42,8 +42,6 @@ class TransactionAnalyser:
             
             df = pd.read_sql(query, self.engine)
             
-            # Insert into monthly_spending_summary table
-            df['created_at'] = datetime.now()
             df.to_sql('monthly_spending_summary', self.engine, if_exists='append', index=False)
             
             logger.info(f"Monthly spending summary calculated for {len(df)} months")
@@ -60,20 +58,17 @@ class TransactionAnalyser:
         try:
             query = """
             SELECT 
-                strftime('%Y-%m-01', date) as year_month,
                 category,
                 SUM(ABS(amount)) as total_amount,
                 COUNT(*) as transaction_count
             FROM transactions
             WHERE amount < 0 AND category IS NOT NULL
-            GROUP BY strftime('%Y-%m-01', date), category
-            ORDER BY year_month DESC, total_amount DESC
+            GROUP BY category
+            ORDER BY category asc
             """
             
             df = pd.read_sql(query, self.engine)
             
-            # Insert into category_wise_spending table
-            df['created_at'] = datetime.now()
             df.to_sql('category_wise_spending', self.engine, if_exists='append', index=False)
             
             logger.info(f"Category-wise spending calculated for {len(df)} category-month combinations")

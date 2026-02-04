@@ -6,6 +6,7 @@ import logging
 from ETL.transactionDataManager import TransactionDataManager
 from TAS.analyseTransactions import TransactionAnalyser
 from config import DATABASE_URI
+from basic_visualizer import FinanceVisualizer
 
 logging.basicConfig(
     level=logging.INFO,
@@ -91,6 +92,16 @@ def main():
         logger.info("=" * 60)
     else:
         logger.error("Pipeline completed with errors")
+        return
+    
+    # Generate Visualizations
+    logger.info("Generating visualizations...")
+    try:
+        visualizer = FinanceVisualizer(db_uri=DATABASE_URI)
+        visualizer.generate_all_visualizations()
+        logger.info("Visualizations generated successfully")
+    except Exception as e:
+        logger.error(f"Visualization generation failed: {e}")   
 
 
 if __name__ == "__main__":

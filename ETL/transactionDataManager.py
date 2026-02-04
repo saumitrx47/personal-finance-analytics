@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 class TransactionDataManager:
     def __init__(self, db_uri=DATABASE_URI):
         db_file = "personal_finance.db"
-        
+
         if os.path.exists(db_file):
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             backup_file = f"personal_finance_{timestamp}.db"
